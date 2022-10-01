@@ -8,9 +8,12 @@ h1 {
 }
 
 img{display: block;
-    text-align: center;   
+    text-align: center; 
+    margin: auto;  
     height: 200px;
-    margin:auto;
+    box-shadow: 0px 1px 3px 1px black;
+    margin-bottom: 10%;
+    border-radius: 10px;
     }
 
 .adress ,.age{
@@ -26,7 +29,7 @@ section{
 }
 
 .adress{
-    background-color:rgb(197, 238, 244) ;
+    background: linear-gradient(to left,rgb(197, 238, 244),white);
 
 }
 
