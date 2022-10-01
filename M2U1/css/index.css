@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+h1 {
+    text-align: center;
+}
+
+img{display: block;
+    text-align: center;   
+    height: 200px;
+    margin:auto;
+    }
+
+.adress ,.age{
+    text-align: center;
+    height: 100px;
+}
+h3{
+    margin: 0;
+}
+
+section{
+    justify-content: center;
+}
+
+.adress{
+    background-color:rgb(197, 238, 244) ;
+
+}
+
+.age{
+    background-color:rgb(208, 237, 180) ;
+}

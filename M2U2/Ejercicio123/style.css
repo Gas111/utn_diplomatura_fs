@@ -1,0 +1,62 @@
+body{
+    color:white;
+    background-color: white;
+}
+
+
+body div {
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+    display: flex;
+}
+
+body div div{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 33%;
+    width: 33%;
+    text-align: center;
+
+}
+
+
+
+body div div:first-child{
+    background-color: red;
+
+}
+
+body div div:nth-child(2) {
+    background-color: blue;
+
+}
+
+body div div:nth-child(3) {
+    background-color: green;
+
+}
+
+
+.block:nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+ align-items: center; 
+}
+
+
+
+.block:last-child{
+    width: 300px;
+    height: 33px;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+
+.block:nth-child(3) div{
+height: 100%;
+width: 33px;
+}
