@@ -1,0 +1,27 @@
+.box1,.box2,.box3{
+height: 30px;
+width: 30px;
+}
+section{
+    display: flex;
+}
+
+.box1{
+    background-color: lightcoral;
+}
+.box2{
+    background-color: lightgreen;
+}
+.box3{
+    background-color: lightseagreen;
+}
+
+.blue{
+    background-color: lightcoral;
+}
+.red{
+    background-color: lightgreen;
+}
+.green{
+    background-color: lightseagreen;
+}
