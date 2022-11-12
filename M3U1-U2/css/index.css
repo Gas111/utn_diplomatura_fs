@@ -87,6 +87,10 @@ h3,h2{
   .icon-menu{
 margin: 0.5rem;
   }
+  .icon-menu a{
+  margin: 0 1rem;
+  color:var(--footer-bgcolor)
+  }
   
 @media (min-width:468px) {
   
@@ -124,7 +128,11 @@ li {
 }
 
 
-.main {}
+.main {
+  margin: 0;
+  padding: 0;
+
+}
 
 .main__offerts {}
 
@@ -220,9 +228,10 @@ color:lightseagreen
 
 .main__bottom-fish {
   background-image: url("https://media2.cdn.bulkreefsupply.com/media/wysiwyg/styles/footer_background.jpg");
-  height: 300px;
+  height:350px;
   width: auto;
-  background-size: cover;
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 
 .footer{
@@ -242,4 +251,5 @@ padding-right: 1rem;
 .footer__social-links i{
 margin: 0.3rem;
 color:white;
+font-size: 1.8rem;
 }

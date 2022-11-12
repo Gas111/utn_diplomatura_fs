@@ -3,7 +3,8 @@
   }
 
 label{
-width: 50px;
+  display:inline-block;
+width: 70px;
 
 }
 
@@ -13,4 +14,8 @@ margin: 1rem 0;
 
   }
 
+  .textarea{
+    padding: 0.5rem;
+  
+  }
   
