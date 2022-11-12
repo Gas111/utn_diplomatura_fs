@@ -1,0 +1,24 @@
+.main__products{
+    margin: 1rem 0;
+  }
+  
+  .products-title{
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  background-color: rgb(54, 40, 33);
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+  margin: 1rem 0.5rem;  
+  }
+  
+  @media (min-width:468px) {
+    .products-title{
+     width: 300px;
+      }
+      
+  
+  
+  }
+  
