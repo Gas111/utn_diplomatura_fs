@@ -173,14 +173,18 @@ align-items: center;
 }
 
 .card-product__image{
+  display: flex;
 height: 80%;
 width: 50%;
 text-align: center;
 overflow: hidden;
+
+
 }
 
-.card-product__image img{
-height: 100%;
+img{
+width: 100%; 
+object-fit: scale-down;
 
 }
 
